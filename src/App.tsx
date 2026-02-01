@@ -43,7 +43,7 @@ export default function Page() {
         <>
           <img
             className="h-[200px]"
-            src="https://media.gifdb.com/cute-sad-bubu-dudu-panda-kick-4cn5usy9xip1m59y.gif"
+            src="https://tenor.com/view/bubu-dudu-bubu-dudu-bear-panda-gif-2132781642126111018"
           />
           <h1 className="my-4 text-4xl">Hai Valerie, will you be my Valentine?</h1>
           <div className="flex items-center">
