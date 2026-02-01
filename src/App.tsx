@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import bubuDudu from "./assets/bubu-dudu.gif"; // Import the local GIF
 
 export default function Page() {
   const [noCount, setNoCount] = useState(0);
@@ -41,10 +42,7 @@ export default function Page() {
         </>
       ) : (
         <>
-          <img
-            className="h-[200px]"
-            src="https://tenor.com/view/bubu-dudu-bubu-dudu-bear-panda-gif-2132781642126111018"
-          />
+          <img src={bubuDudu} alt="Bubu Dudu" />
           <h1 className="my-4 text-4xl">Hai Valerie, will you be my Valentine?</h1>
           <div className="flex items-center">
             <button
